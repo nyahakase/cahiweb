@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 事業内容
+permalink: /services/
 ---
 
 # 事業内容

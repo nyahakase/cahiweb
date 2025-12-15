@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} | {{ site.title }}</title>
-    <link rel="stylesheet" href="/assets/style.css">
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ★ CSS の読み込み（ここが超重要） -->
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 <body>
-
-<header class="header">
+  <header class="header">
     <div class="container header-inner">
-        <div class="logo">{{ site.title }}</div>
-        <nav class="nav">
-            <a href="/">会社概要</a>
-            <a href="/services">事業内容</a>
-            <a href="/company">会社情報</a>
-            <a href="/access">アクセス</a>
-            <a href="/contact">お問い合わせ</a>
-        </nav>
+      <div class="logo">{{ site.title }}</div>
+      <nav class="nav">
+        <a href="{{ '/' | relative_url }}">会社概要</a>
+        <a href="{{ '/services/' | relative_url }}">事業内容</a>
+        <a href="{{ '/company/'  | relative_url }}">会社情報</a>
+        <a href="{{ '/access/'   | relative_url }}">アクセス</a>
+        <a href="{{ '/contact/'  | relative_url }}">お問い合わせ</a>
+      </nav>
     </div>
-</header>
+  </header>
 
-<main class="content">
+  <main class="content">
     {{ content }}
-</main>
+  </main>
 
-<footer class="footer">
+  <footer class="footer">
     <div class="container">
-        <small>© 2025 {{ site.title }}</small>
+      <small>© 2025 {{ site.title }}</small>
     </div>
-</footer>
-
+  </footer>
 </body>
 </html>

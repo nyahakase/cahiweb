@@ -1,6 +1,7 @@
 ---
 layout: default
 title: アクセス
+permalink: /access/
 ---
 
 # アクセス

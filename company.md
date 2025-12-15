@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 会社情報
+permalink: /company/
 ---
 
 # 会社情報

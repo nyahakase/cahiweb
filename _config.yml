@@ -1,8 +1,7 @@
 title: SampleTech Inc.
 description: シンプルなIT企業サイト
-theme: null  # ← GitHub Pages のデフォルトテーマを使わない設定
+theme: null
 markdown: kramdown
 
-# 追加の設定
-exclude:
-  - README.md
+url: "" 
+baseurl: "/cahiweb"
