@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: system-ui, "Noto Sans JP", sans-serif;
+    line-height: 1.7;
+    color: #222;
+    background: #fafafa;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.header {
+    background: white;
+    border-bottom: 1px solid #ddd;
+    padding: 12px 0;
+    position: sticky;
+    top: 0;
+}
+
+.nav a {
+    margin-left: 16px;
+    text-decoration: none;
+    color: #333;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-top: 0;
+}
+
+.content {
+    padding: 32px 16px;
+    background: #fff;
+    min-height: 60vh;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-top: 1px solid #ddd;
+    font-size: 0.9rem;
+}
